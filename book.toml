@@ -1,0 +1,35 @@
+[book]
+title = "What We Lost When Git Won"
+authors = ["CloudStreet"]
+description = "A history of version control as a design space, not a product category."
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/cloudstreet-dev/what-we-lost-when-git-won"
+edit-url-template = "https://github.com/cloudstreet-dev/what-we-lost-when-git-won/edit/main/{path}"
+no-section-label = false
+copy-fonts = true
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.print]
+enable = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[rust]
+edition = "2021"
